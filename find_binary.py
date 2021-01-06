@@ -1,3 +1,4 @@
+#Day1.1
 def binary(num):
   val = ''
   while num>0:
