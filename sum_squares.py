@@ -6,4 +6,4 @@ def sum_even(lis1):
   for i in lis1[1::2]:
     sum+=i
   return sum
-sum_even(lis1)
+
