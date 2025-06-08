@@ -1,5 +1,5 @@
-#prim_func(1,2,3,4,5,6) => 2,3,5
-def prim_func(lis):
+#prime_func(1,2,3,4,5,6) => 2,3,5
+def prime_func(lis):
   op = []
   for el in lis:
     factor_count = 0
@@ -9,4 +9,4 @@ def prim_func(lis):
     if factor_count == 2:
       op.append(el)
   return op
-print(prim_func([2,3,4,5,6]))
+print(prime_func([2,3,4,5,6]))
