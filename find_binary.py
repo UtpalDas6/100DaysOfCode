@@ -14,6 +14,7 @@ def binary(num: int) -> str:
         Binary string without leading ``0b`` prefix.
     """
 
+    # Explicitly handle zero to avoid while-loop overhead
     if num == 0:
         return "0"
 
